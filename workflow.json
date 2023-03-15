@@ -1,23 +1,23 @@
 {
   "kind": "Workflow",
-  "id": "33fb64086c3295748ed979a87b5e13c0",
+  "id": "c396df425957007ccc1d5a6ff925878f",
   "isDeleted": false,
-  "rev": "60-1a34b17400145404d30a93188af7552c",
+  "rev": "6-d366d0975dae7c4ad9524504de2440eb",
   "description": "Calculates the ratio (Log fold change) between a control and treatment condition.",
   "name": "Log Fold Change_app",
-  "createdBy": "Martin",
+  "createdBy": "dschuller",
   "acl": {
     "kind": "Acl",
-    "owner": "pamgene",
+    "owner": "Test_NewTemplates",
     "aces": []
   },
   "createdDate": {
     "kind": "Date",
-    "value": "2021-09-21T12:54:35.553885Z"
+    "value": "2023-03-15T12:39:54.151518Z"
   },
   "lastModifiedDate": {
     "kind": "Date",
-    "value": "2022-01-20T22:07:21.949297Z"
+    "value": "2023-03-15T12:40:49.880419Z"
   },
   "urls": [
     {
@@ -36,6 +36,21 @@
       "kind": "Pair",
       "key": "copyOf",
       "value": "35c33fa33c9e6aba0dce6483f5f6dabe"
+    },
+    {
+      "kind": "Pair",
+      "key": "_upgrade_",
+      "value": "0.10.0"
+    },
+    {
+      "kind": "Pair",
+      "key": "_upgrade_reset_",
+      "value": "0.10.0"
+    },
+    {
+      "kind": "Pair",
+      "key": "_upgrade_old_task_",
+      "value": "0.10.15"
     }
   ],
   "url": {
@@ -45,7 +60,7 @@
   "version": "0.1.3",
   "authors": [],
   "isPublic": false,
-  "projectId": "33fb64086c3295748ed979a87b34b3b7",
+  "projectId": "5fdacf2e254f508d0bd669ac039f912e",
   "folderId": "",
   "links": [
     {
@@ -123,7 +138,7 @@
         "kind": "Rectangle",
         "extent": {
           "kind": "Point",
-          "x": 98.84788513183594,
+          "x": 98.84791564941406,
           "y": 55.0
         },
         "topLeft": {
@@ -327,7 +342,7 @@
             }
           ],
           "rectangleSelections": [],
-          "nRows": 0
+          "nRows": 1
         },
         "filters": {
           "kind": "Filters",
@@ -340,8 +355,8 @@
           "operatorRef": {
             "kind": "OperatorRef",
             "name": "Log Cutoff",
-            "version": "0.0.2",
-            "operatorId": "9b71acd01fc31cc0c265a1190aefd2b8",
+            "version": "0.1.1",
+            "operatorId": "5fdacf2e254f508d0bd669ac03eb55a8",
             "operatorKind": "ROperator",
             "propertyValues": [
               {
@@ -362,7 +377,7 @@
             ],
             "url": {
               "kind": "Url",
-              "uri": "https://github.com/tercen/log_cutoff_operator"
+              "uri": "https://github.com/pamgene/log_cutoff_operator"
             }
           },
           "environment": [
@@ -406,7 +421,7 @@
             }
           ],
           "rectangleSelections": [],
-          "nRows": 0
+          "nRows": 1
         },
         "taskId": ""
       },
@@ -440,7 +455,7 @@
         "kind": "Rectangle",
         "extent": {
           "kind": "Point",
-          "x": 100.62580871582031,
+          "x": 100.6258544921875,
           "y": 55.0
         },
         "topLeft": {
@@ -617,7 +632,7 @@
             }
           ],
           "rectangleSelections": [],
-          "nRows": 0
+          "nRows": 1
         },
         "filters": {
           "kind": "Filters",
@@ -649,8 +664,8 @@
           "operatorRef": {
             "kind": "OperatorRef",
             "name": "Identity",
-            "version": "0.0.1",
-            "operatorId": "9b71acd01fc31cc0c265a1190af0d55f",
+            "version": "0.1.0",
+            "operatorId": "5fdacf2e254f508d0bd669ac03ef799a",
             "operatorKind": "ROperator",
             "propertyValues": [],
             "url": {
@@ -699,7 +714,7 @@
             }
           ],
           "rectangleSelections": [],
-          "nRows": 0
+          "nRows": 1
         },
         "taskId": ""
       },
@@ -733,7 +748,7 @@
         "kind": "Rectangle",
         "extent": {
           "kind": "Point",
-          "x": 99.9818115234375,
+          "x": 99.98185729980469,
           "y": 55.0
         },
         "topLeft": {
@@ -1035,7 +1050,7 @@
             }
           ],
           "rectangleSelections": [],
-          "nRows": 0
+          "nRows": 1
         },
         "filters": {
           "kind": "Filters",
@@ -1048,13 +1063,13 @@
           "operatorRef": {
             "kind": "OperatorRef",
             "name": "Minus",
-            "version": "0.0.1",
-            "operatorId": "9b71acd01fc31cc0c265a1190af10b43",
+            "version": "0.2.0",
+            "operatorId": "c396df425957007ccc1d5a6ff924f164",
             "operatorKind": "ROperator",
             "propertyValues": [],
             "url": {
               "kind": "Url",
-              "uri": "https://github.com/tercen/minus_operator"
+              "uri": "https://github.com/pamgene/minus_operator"
             }
           },
           "environment": []
@@ -1087,7 +1102,7 @@
             }
           ],
           "rectangleSelections": [],
-          "nRows": 0
+          "nRows": 1
         },
         "taskId": ""
       },
@@ -1298,7 +1313,7 @@
             }
           ],
           "rectangleSelections": [],
-          "nRows": 0
+          "nRows": 1
         },
         "filters": {
           "kind": "Filters",
@@ -1311,8 +1326,8 @@
           "operatorRef": {
             "kind": "OperatorRef",
             "name": "Mean",
-            "version": "1.0.0",
-            "operatorId": "9b71acd01fc31cc0c265a1190aeb8928",
+            "version": "1.2.0",
+            "operatorId": "5fdacf2e254f508d0bd669ac03f1f44a",
             "operatorKind": "ROperator",
             "propertyValues": [],
             "url": {
@@ -1350,7 +1365,7 @@
             }
           ],
           "rectangleSelections": [],
-          "nRows": 0
+          "nRows": 1
         },
         "taskId": ""
       },
@@ -1384,7 +1399,7 @@
         "kind": "Rectangle",
         "extent": {
           "kind": "Point",
-          "x": 159.0757598876953,
+          "x": 159.07582092285156,
           "y": 55.0
         },
         "topLeft": {
@@ -1596,7 +1611,7 @@
         "kind": "Rectangle",
         "extent": {
           "kind": "Point",
-          "x": 98.27384948730469,
+          "x": 98.27389526367188,
           "y": 55.0
         },
         "topLeft": {
@@ -1890,7 +1905,7 @@
   ],
   "offset": {
     "kind": "Point",
-    "x": -16.0,
-    "y": 130.0
+    "x": -28.0,
+    "y": -142.0
   }
 }
